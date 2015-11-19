@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/voiceRecorder"
+        android:icon="@drawable/home_menu_icon"
+        android:orderInCategory="100"
+        android:title="@string/home_menu_item"/>
+    <item
+        android:id="@+id/recordList"
+        android:orderInCategory="100"
+        android:icon="@drawable/list_menu_icon"
+        android:title="@string/list_menu_item"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:icon="@drawable/about_menu_icon"
+        android:title="@string/about_menu_item"/>
+    <item
+        android:id="@+id/rate"
+        android:orderInCategory="100"
+        android:icon="@drawable/rate_menu_icon"
+        android:title="@string/rate_menu_item"/>
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:icon="@drawable/share_menu_icon"
+        android:title="@string/share_menu_item"/>
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:icon="@drawable/exit_menu_icon"
+        android:title="@string/exit_menu_item"/>
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_info">This app can record any type of sound or sound effect.\n
+Easily get shilly sound effect.\n
+Most of popular file format (MP3, WAV, AMR, 3GP, MP4).\n
+Audio channels (MONO, STERIO).\nTwo VU Meter display (Analog, Digtal).\n
+Sampling rate (8KHz-44.1KHz).\nTimer included.\n
+Built-in player and Equalizer with sound effects.</string>
+    <string name="timerVal">00:00</string>
+    <string name="channel">Channel</string>
+    <string name="sampling_rate">Sampling Rate</string>
+    <string name="app_name">Recorder and Equalizer Player with Effect</string>
+    <string name="choose_format_title">Choose Audio Format</string>
+    <string name="rename_dialog">Save As</string>
+    <string name="rename_hint">input name</string>
+    <string name="record_list">Record List</string>
+    <string name="timer_text">00:00</string>
+    <string name="start_button_text">START</string>
+    <string name="list_button_text">RECORD LIST</string>
+    <string name="player_button_text">PLAYER</string>
+    <string name="stop_button_text">STOP</string>
+    <string name="recording_state">Recording...</string>
+    <string name="title_activity_about">About System</string>
+    <string name="title_activity_player">Equalizer Player with Effect</string>
+    <string name="home_menu_item">Home</string>
+    <string name="list_menu_item">Record List</string>
+    <string name="about_menu_item">About</string>
+    <string name="rate_menu_item">Rate</string>
+    <string name="share_menu_item">Share</string>
+    <string name="back_menu_item">Back</string>
+    <string name="exit_menu_item">Exit</string>
+    <string name="share_text">Equalizer Player with Effect is powefull android app to record any type of sound and play them with great equalizer with sound effect.</string>
+
+</resources>

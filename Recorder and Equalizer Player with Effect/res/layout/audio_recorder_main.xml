@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin"
+        android:layout_weight="40"
+        android:gravity="center_horizontal" >
+
+        <com.anisbulbul.voicerecorder.vumeter.VUMeter
+            android:id="@+id/vuMeter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin"
+        android:layout_weight="19"
+        android:gravity="center"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/timerValue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:background="@drawable/timer_off"
+            android:text="@string/timer_text"
+            android:textColor="@color/timer_text_color"
+            android:textSize="@dimen/about_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:background="@drawable/frequency"
+        android:gravity="center" >
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-5782500766900144/8955846914" >
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:textSize="@dimen/about_text_size"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/btnSamplingRate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.34"
+            android:background="@drawable/record_button_background"
+            android:text="8KHz"
+            android:textColor="@color/button_active_text_color"
+            android:textSize="@dimen/about_text_size" />
+
+        <Button
+            android:id="@+id/btnChannel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.33"
+            android:background="@drawable/record_button_background"
+            android:text="MONO"
+            android:textColor="@color/button_active_text_color"
+            android:textSize="@dimen/about_text_size" />
+
+        <Button
+            android:id="@+id/btnFormat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.33"
+            android:background="@drawable/record_button_background"
+            android:text="MP3"
+            android:textColor="@color/button_active_text_color"
+            android:textSize="@dimen/about_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/record_button_background"
+            android:text="@string/start_button_text"
+            android:textColor="@color/button_active_text_color"
+            android:textSize="@dimen/about_text_size" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/record_button_background"
+            android:text="@string/stop_button_text"
+            android:textColor="@color/button_inactive_text_color"
+            android:textSize="@dimen/about_text_size" />
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/btnList"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/record_button_background"
+            android:text="@string/list_button_text"
+            android:textColor="@color/button_active_text_color"
+            android:textSize="@dimen/about_text_size" />
+
+        <Button
+            android:id="@+id/btnPlayer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@drawable/record_button_background"
+            android:text="@string/player_button_text"
+            android:textColor="@color/button_active_text_color"
+            android:textSize="@dimen/about_text_size" />
+    </LinearLayout>
+</LinearLayout>

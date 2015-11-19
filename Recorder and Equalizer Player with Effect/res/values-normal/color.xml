@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="timer_text_color">#fff</color>
+     <color name="list_item_color">#999</color>
+     <color name="button_active_text_color">#999</color>
+     <color name="button_inactive_text_color">#222</color>
+     <color name="duration_color">#555</color>
+     <color name="audio_file_size_text_color">#777</color>
+</resources>
